@@ -151,16 +151,16 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## Screenshots & Demo
 
 - **Topic Selection Screen:**  
-  ![Topic Selection](./screenshots/topic-select.png)
+  ![Topic Selection](./topic-screen.jpg)
 
 - **Quiz Screen (with progress, animations, and themes):**  
-  ![Quiz Screen](./screenshots/quiz-screen.png)
+  ![Quiz Screen](./quiz-screen.jpg)
 
 - **Result Screen:**  
-  ![Result Screen](./screenshots/result-screen.png)
+  ![Result Screen](./result-screen.jpg)
 
 - **Demo Video:**  
-  [Watch Demo](./demo/quiz-demo.mp4)
+  [Watch Demo](./ai-quiz-recording.mp4)
 
 ---
 
