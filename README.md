@@ -191,23 +191,23 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## How to Run Locally
 
 1. Clone the repository:  
-  git clone <repo-url>
+  `git clone <repo-url>`
 
 2. Install dependencies:  
-  cd backend
-  npm install
-  cd ../frontend
-  npm install
+  `cd backend`
+  `npm install`
+  `cd ../frontend`
+  `npm install`
 
 3. Set up GPT-4o-mini OpenRouter API key in `.env`.
 
 4. Start backend server:  
-  cd backend
-  npm start
+  `cd backend`
+  `npm start`
 
 5. Start frontend:  
-  cd frontend
-  npm start
+  `cd frontend`
+  `npm start`
 
 6. Open `http://localhost:5173` (or the port displayed) to use the quiz.
 
