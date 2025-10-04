@@ -62,6 +62,7 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## Example JSON Output from Backend
 
 [
+
   {
     "q": "What is the capital of France?",
     "options": ["Paris", "London", "Berlin", "Madrid"],
