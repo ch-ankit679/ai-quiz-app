@@ -1,4 +1,4 @@
-# Quiz Web App
+# AI Quiz Web App for Plum Placement Drive
 
 This is a responsive Quiz Web Application built with **React.js** for the frontend and a **Node.js/Express backend**. The app dynamically generates multiple-choice questions using the **GPT-4o-mini OpenRouter API**.
 
