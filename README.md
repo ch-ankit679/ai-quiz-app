@@ -43,11 +43,11 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 
 - **Prompt used to generate questions:**
   
-  `Generate 5 multiple-choice questions on "${topic}".  
-  Format output strictly as JSON:  
-  [
-    {"q": "Question text", "options":["A","B","C","D"], "correct": 1}
-  ]`
+  `Generate 5 multiple-choice questions on "${topic}".`  
+  `Format output strictly as JSON:`  
+  `[`
+    `{"q": "Question text", "options":["A","B","C","D"], "correct": 1}`
+  `]`
 
 - **Refinements & Adjustments:**
   - Ensured JSON output strictly follows the required format to avoid frontend parsing errors.  
@@ -61,33 +61,33 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 
 ## Example JSON Output from Backend
 
-`[
-  {
-    "q": "What is the capital of France?",
-    "options": ["Paris", "London", "Berlin", "Madrid"],
-    "correct": 0
-  },
-  {
-    "q": "Which planet is known as the Red Planet?",
-    "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    "correct": 1
-  },
-  {
-    "q": "Who wrote the play 'Romeo and Juliet'?",
-    "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Leo Tolstoy"],
-    "correct": 2
-  },
-  {
-    "q": "What is the largest ocean on Earth?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    "correct": 3
-  },
-  {
-    "q": "What is the chemical symbol for gold?",
-    "options": ["Au", "Ag", "Gd", "Go"],
-    "correct": 0
-  }
-]`
+`[`
+  `{`
+    `"q": "What is the capital of France?",`
+    `"options": ["Paris", "London", "Berlin", "Madrid"],`
+    `"correct": 0`
+  `},`
+  `{`
+    `"q": "Which planet is known as the Red Planet?",`
+    `"options": ["Earth", "Mars", "Jupiter", "Venus"],`
+    `"correct": 1`
+  `},`
+  `{`
+    `"q": "Who wrote the play 'Romeo and Juliet'?",`
+    `"options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Leo Tolstoy"],`
+    `"correct": 2`
+  `},`
+  `{`
+    `"q": "What is the largest ocean on Earth?",`
+    `"options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],`
+    `"correct": 3`
+  `},`
+  `{`
+    `"q": "What is the chemical symbol for gold?",`
+    `"options": ["Au", "Ag", "Gd", "Go"],`
+    `"correct": 0`
+  `}`
+`]`
 
 - `q` → Question text displayed in the quiz.  
 - `options` → Array of options displayed as buttons.  
@@ -164,20 +164,20 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 `git clone <repo-url>`
 
 2. Install dependencies:  
-`cd backend  
-npm install  
-cd ../frontend  
-npm install`
+`cd backend`  
+`npm install` 
+`cd ../frontend`
+`npm install`
 
 3. Set up GPT-4o-mini OpenRouter API key in `.env`.
 
 4. Start backend server:  
-`cd backend  
-npm start`
+`cd backend`  
+`npm start`
 
 5. Start frontend:  
-`cd frontend  
-npm start`
+`cd frontend`  
+`npm start`
 
 6. Open `http://localhost:5173` (or the port displayed) to use the quiz.
 
