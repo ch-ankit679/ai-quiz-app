@@ -42,10 +42,14 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## Prompts Used and Refinements Made
 
 - **Prompt used to generate questions:**  
-  `Generate 5 multiple-choice questions on "${topic}".  
-  Format output strictly as JSON:  
+  `Generate 5 multiple-choice questions on "${topic}".
+    
+  Format output strictly as JSON:
+  
   [
+  
     {"q": "Question text", "options":["A","B","C","D"], "correct": 1}
+  
   ]`
 
 - **Other small prompts I used for refinements with ChatGPT:**
@@ -66,31 +70,56 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## Example JSON Output from Backend
 
 [
+
   {
+  
     "q": "What is the capital of France?",
+    
     "options": ["Paris", "London", "Berlin", "Madrid"],
+    
     "correct": 0
+    
   },
+  
   {
+  
     "q": "Which planet is known as the Red Planet?",
+    
     "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    
     "correct": 1
+    
   },
+  
   {
+  
     "q": "Who wrote the play 'Romeo and Juliet'?",
+    
     "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Leo Tolstoy"],
+    
     "correct": 2
+    
   },
+  
   {
+  
     "q": "What is the largest ocean on Earth?",
+    
     "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    
     "correct": 3
+    
   },
+
   {
     "q": "What is the chemical symbol for gold?",
+    
     "options": ["Au", "Ag", "Gd", "Go"],
+    
     "correct": 0
+    
   }
+  
 ]
 
 - `q` → Question text displayed in the quiz.  
@@ -137,7 +166,6 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 
 ## Known Issues
 
-- Long questions may cause slight overflow on very small mobile screens.
 - Currently supports only **5 questions per topic**.
 - No timer functionality yet.
 
