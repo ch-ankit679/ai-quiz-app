@@ -160,7 +160,7 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
   ![Result Screen](./result-screen.jpg)
 
 - **Demo Video:**  
-  [Watch Demo][(./ai-quiz-recording.mp4)](https://github.com/user-attachments/assets/c07728fb-8795-4b49-bae5-94916d0061b3)
+  https://github.com/user-attachments/assets/c07728fb-8795-4b49-bae5-94916d0061b3
 
 ---
 
