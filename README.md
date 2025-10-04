@@ -41,17 +41,17 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 
 ## Prompts Used and Refinements Made
 
-- **Prompt used to generate questions:**
-  
-  `Generate 5 multiple-choice questions on "${topic}".
-    
-  Format output strictly as JSON:
-    
+- **Prompt used to generate questions:**  
+  `Generate 5 multiple-choice questions on "${topic}".  
+  Format output strictly as JSON:  
   [
-  
     {"q": "Question text", "options":["A","B","C","D"], "correct": 1}
-  
   ]`
+
+- **Other small prompts I used for refinements with ChatGPT:**
+  - CSS tweaks to hide scrollbars and center container vertically and horizontally on mobile.
+  - Adjustments for responsive container height and width.
+  - Theme toggle and animation guidance.
 
 - **Refinements & Adjustments:**
   - Ensured JSON output strictly follows the required format to avoid frontend parsing errors.  
@@ -59,65 +59,39 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
   - Added the `correct` field for the correct option index.  
   - Adjusted questions for clarity and concise phrasing.  
   - Found and configured a free GPT-4o-mini OpenRouter API key (this was a bit tricky).  
-  - ChatGPT helped me with **CSS animations, responsive design tweaks, and theme toggle** implementation, but I handled most of the project logic myself.
+  - ChatGPT helped me with **CSS animations, responsive design tweaks, and theme toggle**, but all core logic and project structure were implemented manually.
 
 ---
 
 ## Example JSON Output from Backend
 
-`[
-
+[
   {
-  
     "q": "What is the capital of France?",
-    
     "options": ["Paris", "London", "Berlin", "Madrid"],
-    
     "correct": 0
-    
   },
-  
   {
-  
     "q": "Which planet is known as the Red Planet?",
-    
     "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    
     "correct": 1
-    
   },
-  
   {
-  
     "q": "Who wrote the play 'Romeo and Juliet'?",
-    
     "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Leo Tolstoy"],
-    
     "correct": 2
-    
   },
-  
   {
-  
     "q": "What is the largest ocean on Earth?",
-    
     "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    
     "correct": 3
-    
   },
-  
   {
-  
     "q": "What is the chemical symbol for gold?",
-    
     "options": ["Au", "Ag", "Gd", "Go"],
-    
     "correct": 0
-    
   }
-  
-]`
+]
 
 - `q` → Question text displayed in the quiz.  
 - `options` → Array of options displayed as buttons.  
@@ -191,23 +165,23 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## How to Run Locally
 
 1. Clone the repository:  
-  `git clone <repo-url>`
+   `git clone <repo-url>`
 
 2. Install dependencies:  
-  `cd backend`
-  `npm install`
-  `cd ../frontend`
-  `npm install`
+   `cd backend`  
+   `npm install`  
+   `cd ../frontend`  
+   `npm install`
 
 3. Set up GPT-4o-mini OpenRouter API key in `.env`.
 
 4. Start backend server:  
-  `cd backend`
-  `npm start`
+   `cd backend`  
+   `npm start`
 
 5. Start frontend:  
-  `cd frontend`
-  `npm start`
+   `cd frontend`  
+   `npm start`
 
 6. Open `http://localhost:5173` (or the port displayed) to use the quiz.
 
