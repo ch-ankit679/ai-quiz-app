@@ -193,7 +193,7 @@ This is a responsive Quiz Web Application built with **React.js** for the fronte
 ## How to Run Locally
 
 1. Clone the repository:  
-   `git clone <repo-url>`
+   `git clone https://github.com/ch-ankit679/ai-quiz-app.git`
 
 2. Install dependencies:  
    `cd backend`  
